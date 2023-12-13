@@ -132,13 +132,14 @@ header {
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
-  
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  list-style: none;
+  gap: 1rem;
+  height: 21rem;
   }
 
   .item-1 {
@@ -249,8 +250,8 @@ header {
 }
 
 .contact-me {
-    background-color: #cadfe4;
-    color: #000;
+    background-color: #000;
+    color: #fff;
     padding: 0.5rem 1rem;
     border-radius: 20px;
     text-decoration: none;
@@ -265,7 +266,7 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem;
-    background-color: #fff; /* Or any other preferred color */
+    background-color: #f7ead7; /* Or any other preferred color */
 }
 
 .my-work h2 {
@@ -274,7 +275,7 @@ header {
 }
 
 .work-card {
-    background-color: #eaeaea; /* Placeholder for card background color */
+    background-color: #f7ead7; /* Placeholder for card background color */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden; /* Ensures the content fits within the rounded corners */
@@ -287,7 +288,7 @@ header {
 
 .work-card .work-content {
     padding: 1rem;
-    background-color: #ffffff; /* Card content background color */
+    background-color: #f7ead7; /* Card content background color */
 }
 
 .work-card .work-content h3 {
@@ -305,31 +306,32 @@ header {
 
 /* Call to Action Section */
 .call-to-action {
-    text-align: center;
+    text-align: left;
     padding: 4rem 0;
-    background-color: #fff;
+    background-color: #9977bf;
+    border-radius: 2rem;
 }
 
 .call-to-action h2 {
-    color: #333;
+    color: #090707;
     margin-bottom: 1rem;
 }
 
 .call-to-action p {
-    color: #666;
+    color: #fff;
     margin-bottom: 2rem;
 }
 
 /* Footer */
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
+    background-color: #f7ead7;
+    color: #3a2323;
+    text-align: right;
     padding: 1rem 0;
 }
 
 .footer-logo {
-    width: 50px; /* Adjust as needed */
+    width: 60px; /* Adjust as needed */
     margin-bottom: 1rem;
 }
 
